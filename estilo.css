@@ -1,0 +1,26 @@
+body{
+    background-color: crimson;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    border-radius: 10px;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 100px 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    cursor: pointer; 
+    border: solid 10px black;
+}
+
+button:hover{
+    background-color: darksalmon;
+    color: azure;
+    border-color: azure;
+    border: solid 10px azure;
+}
